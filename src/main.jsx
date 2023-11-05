@@ -8,6 +8,8 @@ import {
   RouterProvider,
   Outlet,
 } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Homepage from './pages/Homepage';
 
 
 
@@ -15,9 +17,8 @@ const Root = () => {
   return (
       <>
       <div className='rootContainer'>
-        <NavBar />
+        <Navbar />
         <Outlet />
-        <Footer />
       </div>
           
       </>
@@ -30,7 +31,7 @@ const router = createBrowserRouter(
     path='/'
     element={<Root />}
     >
-
+      <Route index element={<Homepage />} />
     </Route>
   )
 );

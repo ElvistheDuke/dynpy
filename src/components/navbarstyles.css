@@ -1,0 +1,63 @@
+.navLink, .selectedLink{
+    font-size: 18px;
+    color: black;
+    margin: 0 10px;
+}
+.selectedLink{
+}
+
+.navLinks{
+    display: flex;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid gray;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 85px;
+}
+.menuLinks{
+    display: none;
+}
+.menuButton{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .navLinks{
+        display: none;
+    }
+    .menuButton{
+        display: block;
+    }
+    .menuButton, .cancelButton svg{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .cancelButton{
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+    .menuLinks{
+        position: fixed;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        right: -300px;
+        top: 0;
+        padding: 20px 40px;
+        background-color: gainsboro;
+        height: 100vh;
+        transition: 0.3s;
+    }
+    .menuLinksActive {
+        right: 0;
+    }
+    .menuLinks a{
+        margin: 10px 0;
+    }
+}
