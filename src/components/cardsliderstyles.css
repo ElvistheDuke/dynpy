@@ -29,13 +29,14 @@
 }
 .controls{
     display: flex;
+    gap: 10px;
 }
 .control{
     height: 45px;
     width: 45px;
     color: white;
     background-color: #d83f96;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +98,7 @@
 @media (max-width:800px){
     .title{
         flex-direction: column;
-        font-size: 28px;
+        font-size: 24px;
         align-items: flex-start;
     }
     .cardSlider{
