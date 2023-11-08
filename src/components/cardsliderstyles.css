@@ -98,7 +98,7 @@
 @media (max-width:800px){
     .title{
         flex-direction: column;
-        font-size: 24px;
+        font-size: 20px;
         align-items: flex-start;
     }
     .cardSlider{
