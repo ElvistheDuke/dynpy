@@ -1,0 +1,46 @@
+.textBox{
+    width: 90%;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imageContainer{
+    height: 400px;
+    width: 40%;
+    background-image: url(../assets/bg002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.textContainer{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.textTitle{
+    /* align-self: flex-end; */
+    margin-bottom: 30px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    font-size: 18px;
+}
+@media (max-width:800px){
+    .textBox{
+        flex-direction: column;
+    }
+    .imageContainer{
+        width: 80%;
+    }
+    .textContainer{
+        max-width: 80%;
+        text-align: center;
+    }
+    .textTitle{
+        align-self: center;
+        margin-top: 30px;
+    }
+}

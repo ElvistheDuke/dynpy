@@ -53,6 +53,8 @@
         background-color: gainsboro;
         height: 100vh;
         transition: 0.3s;
+        z-index: 1000;
+        box-shadow: -1px -1px 8px gainsboro;
     }
     .menuLinksActive {
         right: 0;
