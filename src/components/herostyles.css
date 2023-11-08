@@ -26,18 +26,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
     margin: 20px 0;
     transition: 0.2s;
+    background-color: #DA0C81;
+    color: white;
 }
 .heroButton:hover{
-    background-color: #DA0C81;
+    border: 1px solid #DA0C81;
+    background-color: white;
+    color: #DA0C81;
 }
 
 
