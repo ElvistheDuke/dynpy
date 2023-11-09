@@ -64,3 +64,15 @@
         margin-bottom: 30px;
     }
 }
+@media (max-width:600px){
+    .listImage{
+        height: 250px;
+        width: 250px;
+    }
+    .listContainer{
+        max-width: 100%;
+    }
+    .listInfo{
+        max-width: 70%;
+    }
+}
