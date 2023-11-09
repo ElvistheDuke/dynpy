@@ -1,0 +1,94 @@
+.pricingBox{
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pbHeader{
+    font-size: 32px;
+    font-weight: 1000;
+    color: rgb(31, 31, 31);
+}
+.pbCardsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.priceCard{
+    border: 4px solid black;
+    border-radius: 20px;
+    border-left: 0;
+    border-right: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 40px 10px;
+    /* box-shadow: 1px 1px 5px gainsboro; */
+    transition: 0.3s;
+}
+.priceCard:hover{
+    box-shadow: 10px 10px 15px gainsboro;
+    translate: 0px -10px;
+    border-color: #DA0C81;
+}
+.priceCard h2{
+    font-size: 30px;
+    align-self: center;
+}
+.pcPrice{
+    margin: 10px 0;
+    align-self: center;
+    font-size: 16px;
+    text-align: center;
+}
+.itemPrice{
+    font-size: 32px;
+    font-weight: 1000;
+}
+.pcInfo{
+    margin: 10px 0;
+}
+.pcInfoItem{
+    display: flex;
+    padding: 15px 5px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 17px;
+    gap: 20px;
+}
+.pcInfoItem svg{
+    width: 20px;
+    height: 20px;
+    color: green;
+}
+.pcButton{
+    background-color: #DA0C81;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: 600;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.pcButton:hover{
+    background-color: black;
+}
+
+@media (max-width:800px){
+    .pbCardsContainer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+    }
+    .priceCard{
+        width: 70%;
+    }
+
+}

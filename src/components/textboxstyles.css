@@ -37,7 +37,7 @@
     }
     .textContainer{
         max-width: 80%;
-        text-align: center;
+        /* text-align: center; */
     }
     .textTitle{
         align-self: center;
