@@ -11,7 +11,7 @@ const Homepage = () => {
         <HeroSection />
         <CardSlider />
         <TextBox />
-        <PricingBox />
+        <PricingBox title="Packages for Everyone" />
         <ListSection />
     </div>
   )

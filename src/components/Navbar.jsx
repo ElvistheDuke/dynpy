@@ -36,7 +36,7 @@ const Navbar = () => {
         },
         {
             tag: "Pricing",
-            link: "/",
+            link: "/pricing",
             code: "distributor"
         },
         {

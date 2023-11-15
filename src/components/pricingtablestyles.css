@@ -1,0 +1,48 @@
+.pricingTable{
+    width: 90%;
+    margin: 0 auto;
+}
+.pricingTable table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px solid black;
+}
+.pricingTable th{
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: start;
+}
+.pricingTable td{
+    padding: 15px 20px;
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+}
+.pricingTable tr{
+    border-bottom: 1px solid black;
+}
+.pricingTable svg{
+    width: 25px;
+    height: 25px;
+}
+table td:first-child { 
+    border-left: 0px solid black; 
+    text-align: left;
+}
+table th:first-child{   
+    border-left: 0px solid black;
+}
+.lastRow{
+    border:  0px solid black;
+}
+.pricingTable tr:last-child{
+    border-bottom: 0px;
+}
+.checkMark{
+    color: green;
+}
+.xMark{
+    color: red;
+}

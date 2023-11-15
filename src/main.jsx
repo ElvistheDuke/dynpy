@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
+import Pricingpage from './pages/Pricingpage';
 
 
 
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
     element={<Root />}
     >
       <Route index element={<Homepage />} />
+      <Route path='/pricing' element={<Pricingpage />} />
     </Route>
   )
 );

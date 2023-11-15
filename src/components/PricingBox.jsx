@@ -1,11 +1,10 @@
 import React from 'react'
 import "./pricingboxstyles.css"
-import PriceCard from './PriceCard'
 
 
 
 
-const PricingBox = () => {
+const PricingBox = (props) => {
     const packages = [
         {
             title: "Basic",
@@ -50,7 +49,7 @@ const PricingBox = () => {
     <>
         <div className="pricingBox">
             <div className="pbHeader">
-                <p>Packages for Everyone</p>
+                <p>{props.title}</p>
             </div>
             <div className="pbCardsContainer">
                 {/* <PriceCard info={packages[0].info} /> */}
