@@ -11,6 +11,7 @@ import {
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import Pricingpage from './pages/Pricingpage';
+import Footer from './components/Footer';
 
 
 
@@ -20,6 +21,7 @@ const Root = () => {
       <div className='rootContainer'>
         <Navbar />
         <Outlet />
+        <Footer />
       </div>
           
       </>

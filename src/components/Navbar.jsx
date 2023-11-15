@@ -65,9 +65,9 @@ const Navbar = () => {
                     })
                 }   
             </div>
-            <div className="navLogo">
+            <Link to={"/"} className="navLogo">
                 <img src={logo} height={40}/>
-            </div>
+            </Link>
             <div className="navLinks">
                 {
                     rightLinks.map((link, index) => {
