@@ -1,6 +1,7 @@
 .pricingTable{
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 .pricingTable table{
     width: 100%;
@@ -45,4 +46,22 @@ table th:first-child{
 }
 .xMark{
     color: red;
+}
+.ptButton{
+    background-color: #DA0C81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.ptButton:hover{
+    cursor: pointer;
+    background-color: #80064b;
 }

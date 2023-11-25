@@ -18,12 +18,12 @@ const Navbar = () => {
         },
         {
             tag: "Blog",
-            link: "/blog",
+            link: "/comingsoon",
             code: "distributor"
         },
         {
             tag: "Contact Us",
-            link: "/contact",
+            link: "/comingsoon",
             code: 'contact'
         },
     ]
@@ -31,7 +31,7 @@ const Navbar = () => {
     const rightLinks = [
         {
             tag: "About Us",
-            link: "/",
+            link: "/comingsoon",
             code: "home"
         },
         {
@@ -41,7 +41,7 @@ const Navbar = () => {
         },
         {
             tag: "Connect",
-            link: "/",
+            link: "/comingsoon",
             code: 'contact'
         },
     ]

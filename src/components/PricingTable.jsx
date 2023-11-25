@@ -125,7 +125,21 @@ const PricingTable = () => {
                 {
                     prices.map((price) => {
                         return(
-                            <td className='lastRow'>{price}</td>
+                            <td style={{fontWeight: 600,}} className='lastRow'>N{price}</td>
+                        )
+                    })
+                }
+            </tr>
+            <tr>
+                <td></td>
+                {
+                    plans.map((plan, index) => {
+                        return(
+                            <td>
+                                <div className="ptButton">
+                                    <p>Get Started</p>
+                                </div>
+                            </td>
                         )
                     })
                 }

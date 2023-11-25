@@ -9,10 +9,13 @@ const Homepage = () => {
   return (
     <div className='container'>
         <HeroSection />
-        <CardSlider />
-        <TextBox />
-        <PricingBox title="Packages for Everyone" />
-        <ListSection />
+        <div className="whiteContainer">
+          <CardSlider />
+          <TextBox />
+          <PricingBox title="Packages for Everyone" />
+          <ListSection />
+        </div>
+        
     </div>
   )
 }

@@ -14,6 +14,7 @@ const ListSection = () => {
 
   return (
     <div className='listSection'>
+        <div className="overlay"><></></div>
         <div className="listImage"></div>
         <div className="listContainer">
             <div className="listTitle">How to Get Started</div>

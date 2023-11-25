@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import Pricingpage from './pages/Pricingpage';
 import Footer from './components/Footer';
+import ComingSoonpage from './pages/ComingSoonpage';
 
 
 
@@ -36,6 +37,7 @@ const router = createBrowserRouter(
     >
       <Route index element={<Homepage />} />
       <Route path='/pricing' element={<Pricingpage />} />
+      <Route path='/comingsoon' element={<ComingSoonpage />} />
     </Route>
   )
 );
